@@ -1,10 +1,11 @@
-from flask import Flask, render_template, request, redirect
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask , render_template
 
-from models import Task
+app = Flask(__name__)
+
+
 
 @app.route("/")
 def index():
-    tasks = Task.query.all()
-    return render_template("index.html", tasks=tasks)
+    title = "Octask"
+    return render_template("index.html")
 
