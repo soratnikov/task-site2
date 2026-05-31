@@ -1,0 +1,5 @@
+.center-container {
+display: flex;
+place-items: center;
+height: 100vh
+}
