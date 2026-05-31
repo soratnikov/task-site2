@@ -2,11 +2,13 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-
+Nacessary = {
+    'name': 'Octask',
+}
 
 @app.route("/")
 def index():
-    title = "octask"
+    title = "Octask"
     return render_template("index.html")
 
 @app.route("/other")
