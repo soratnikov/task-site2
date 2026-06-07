@@ -9,3 +9,41 @@ top: 50%;
 left: 50%
 transform: translate(-50%; -50%)
 }
+
+/*спидран моя жизнь*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #87CEFA; /* небесно-голубой */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+main {
+    flex: 1;
+  }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: transparent;
+  }
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
